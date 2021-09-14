@@ -10,8 +10,86 @@
     </head>
 
     <body>
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+        
+        <aside class="searchContainer">
+            <h2>Search for a City</h2>
+            <input type="text" id="cityFinder">
+            <button id="search">Search</button>
+            <div class="history"></div>
+        </aside>
 
+        <main>
+            <div class="currentContainer">
+                <h2>
+                    <span id="cityDate"></span>
+                    <img src="">
+                </h2>
+                <p id="temp"></p>
+                <p id="wind"></p>
+                <p id="humidity"></p>
+                <p>UV Index:
+                    <span id="uv"></span>
+                </p>
+            </div>
 
+            <div class="futureContainer">
+                
+                <h3>5-Day Forecast:</h3>
+
+                <div class="forecastDays">
+                    <h3>
+                        <span id="date2"></span>
+                    </h3>
+                    <img src="">
+                    <p id="temp2"></p>
+                    <p id="wind2"></p>
+                    <p id="humidity2"></p>
+                </div>
+
+                <div class="forecastDays">
+                    <h3>
+                        <span id="date3"></span>
+                    </h3>
+                    <img src="">
+                    <p id="temp3"></p>
+                    <p id="wind3"></p>
+                    <p id="humidity3"></p>
+                </div>
+
+                <div class="forecastDays">
+                    <h3>
+                        <span id="date4"></span>
+                    </h3>
+                    <img src="">
+                    <p id="temp4"></p>
+                    <p id="wind4"></p>
+                    <p id="humidity4"></p>
+                </div>
+
+                <div class="forecastDays">
+                    <h3>
+                        <span id="date5"></span>
+                    </h3>
+                    <img src="">
+                    <p id="temp5"></p>
+                    <p id="wind5"></p>
+                    <p id="humidity5"></p>
+                </div>
+
+                <div class="forecastDays">
+                    <h3>
+                        <span id="date6"></span>
+                    </h3>
+                    <img src="">
+                    <p id="temp6"></p>
+                    <p id="wind6"></p>
+                    <p id="humidity6"></p>
+                </div>
+            </div>
+        </main>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="./assets/js/script.js"></script>
