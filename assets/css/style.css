@@ -1,0 +1,58 @@
+/* header sytle */
+header {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 1px 0;
+    height: 10%;
+}
+/* end header style */
+
+
+
+/* search/history style */
+.searchContainer {
+    width: 24%;
+    float: left;
+    margin-left: 2px;
+}
+.search {
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+#searchHeader, #cityFinder, #look {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#look {
+    background-color: lightblue;
+    border-radius: 5px;
+}
+#look:hover {
+    background-color: lightseagreen;
+}
+
+.history {
+    margin: 10px 0;
+    width: 100%;
+}
+.history button {
+    width: 100%;
+    margin: 5px 0;
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+/* end search/history */
+
+main {
+    display: block;
+    width: 75%;
+    float: right;
+}
+
+#dayforecast {
+    margin: 15px;
+}
