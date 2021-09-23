@@ -21,23 +21,24 @@ header {
     float: left;
     margin-left: 2px;
 }
-.search {
+
+.searchField {
     width: 100%;
     border-bottom: 1px solid grey;
 }
 
-#searchHeader, #cityFinder, #look {
+#searchHeader, #cityName, #search {
     display: block;
     margin: 10px 0;
     width: 100%;
 }
 
-#look {
+#search {
     background-color: rgb(80, 184, 219);
     border-radius: 5px;
     color: white;
 }
-#look:hover {
+#search:hover {
     background-color: rgb(115, 175, 172);
 }
 
@@ -45,13 +46,13 @@ header {
     margin: 10px 0;
     width: 100%;
 }
-.history button {
+#history button {
     width: 100%;
     margin: 5px 0;
     background-color: darkgrey;
     border-radius: 5px;
 }
-.history button:hover {
+#history button:hover {
     background-color: lightslategray;
 }
 /* end search/history style */
